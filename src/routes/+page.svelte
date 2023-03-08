@@ -1,2 +1,17 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<style>
+  @import '../global.css';
+</style>
+
+<div class="background">
+	<header>
+		<h1>My Website</h1>
+	</header>
+	<div class="container">
+		<div class="box">
+			<p>Welcome to my website!</p>
+		</div>
+	</div>
+	<footer>
+		<p>&copy; 2023 My Website</p>
+	</footer>
+</div>
