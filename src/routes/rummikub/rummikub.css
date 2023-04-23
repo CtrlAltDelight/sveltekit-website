@@ -1,4 +1,4 @@
-p {
+.normal-text {
 	color: black;
 	font-size: 1.2rem;
 	font-family: 'Poppins', sans-serif;
@@ -6,4 +6,5 @@ p {
 
 .smaller-text {
 	font-size: 1rem;
+	color: black;
 }
