@@ -6,5 +6,9 @@
 	{
 		"name": "Google",
 		"url": "https://www.google.com"
+	},
+	{
+		"name": "Rummikub Scoring",
+		"url": "/rummikub"
 	}
 ]
