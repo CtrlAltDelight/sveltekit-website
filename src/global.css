@@ -113,12 +113,13 @@ a {
 
 /* visited link */
 a:visited {
-	color: green;
+	color: steelblue;
 }
 
 /* mouse over link */
 a:hover {
 	color: hotpink;
+	text-decoration: underline;
 }
 
 /* selected link */
