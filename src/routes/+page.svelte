@@ -4,6 +4,7 @@
 
 <style>
   @import '/src/global.css';
+  @import './home.css';
 </style>
 
 <div class="background">
@@ -22,6 +23,7 @@
 				<p id="text04" style="text-align: center">programmer, gamer</p>
 				<hr>
 				<p id="text01"><b>favorite languages:</b> C and python</p>
+				<p id="text01"><b>javascript framework:</b> Svelte</p>
 				<p id="text01"><b>OS:</b> arch linux</p>
 				<p id="text01"><b>editor:</b> neovim</p>
 				<p id="text01"><b>window manager:</b> dwm</p>

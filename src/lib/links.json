@@ -10,5 +10,9 @@
 	{
 		"name": "Rummikub Scoring",
 		"url": "/rummikub"
+	},
+	{
+		"name": "Parallax",
+		"url": "/parallax"
 	}
 ]
