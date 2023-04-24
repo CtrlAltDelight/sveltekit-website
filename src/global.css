@@ -45,26 +45,8 @@ b {
 	font-weight: bold;
 }
 
-.background {
-	background-image: url('/background_image.jpg');
-	background-size: cover;
-	background-position: center;
-}
-
-.container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 90vh;
-}
-
 ul {
 	list-style: none;
-}
-
-p {
-	color: var(--fg-color);
-	margin-bottom: 1rem;
 }
 
 .box {
