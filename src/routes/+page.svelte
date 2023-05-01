@@ -19,7 +19,7 @@
 			</div>
 
 			<div class="inner-column" id="link-box">
-				<p id="text03">Me</p>
+				<p id="text03">CtrlAltDelight</p>
 				<p id="text04" style="text-align: center">programmer, gamer</p>
 				<hr>
 				<p id="text01"><b>favorite languages:</b> C and python</p>
