@@ -34,18 +34,18 @@ h2 {
 }
 
 #image1 {
-	background-image: url("anime_girl.png")
+	background-image: url("/static/anime_girl.png")
 }
 
 #image2 {
-	background-image: url("background2.png")
+	background-image: url("/static/background2.png")
 }
 
 #image3 {
-	background-image: url("brightest_night.jpg")
+	background-image: url("/static/brightest_night.jpg")
 }
 
 #image4 {
-	background-image: url("background_image_shaded.jpg")
+	background-image: url("/static/background_image_shaded.jpg")
 }
 
