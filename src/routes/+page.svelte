@@ -1,5 +1,7 @@
 <script>
 	import links from '$lib/links.json';
+	import { fly } from 'svelte/transition';
+	let num_clicks = 0;
 </script>
 
 <style>
@@ -36,6 +38,14 @@
 						<li><a href={link.url}>{link.name}</a></li>
 					{/each}
 				</ul>
+
+				<!--TODO: Make this global for every user-->
+				<!--NOTE: Expect race condition-->
+				<p>The num_clicks is </p>
+				{#key num_clicks}
+				<p in:fly={{ y: -20 }}>{num_clicks}</p>
+				{/key}
+				<button on:click={() => { num_clicks += 1; }}>Increment</button>
 			</div>
 
 		</div>
