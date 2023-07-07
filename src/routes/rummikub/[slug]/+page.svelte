@@ -49,7 +49,7 @@ let num_players = data.num_players;
 num_players = parseInt(num_players);
 import { MAX_PLAYERS } from './constants.js'
 
-let players = [];
+let players = []; // each player has a list of their scores from each round
 for(let i = 0; i < MAX_PLAYERS; i++) {
 	let list = []
 	for(let j = 0; j < MAX_PLAYERS; j++) {
@@ -61,8 +61,21 @@ for(let i = 0; i < MAX_PLAYERS; i++) {
 let finalScores = null;
 
 function calculateScores() {
-	finalScores = [];
+	for(let i = 0; i < MAX_PLAYERS; i++) {
+		let num_zeroes = 0;
+		let zero_index = 0;
+		for(let j = 0; j < MAX_PLAYERS) {
+			if(players[i][j] == 0) {
+				num_zeroes += 1;
+				zero_index = j;
+			}
+		}
+		if(num_zeroes == 1) {
+			players[i][zero_index] = players[i].reduce((acc, cur) => acc + cur, 0);
+		}
+	}
 
+	finalScores = [];
 	for(let i = 0; i < num_players; i++) {
 		finalScores.push(players[i].reduce((acc, cur) => acc + cur, 0));
 	}
