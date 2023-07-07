@@ -64,7 +64,7 @@ function calculateScores() {
 	for(let i = 0; i < MAX_PLAYERS; i++) {
 		let num_zeroes = 0;
 		let zero_index = 0;
-		for(let j = 0; j < MAX_PLAYERS) {
+		for(let j = 0; j < MAX_PLAYERS; j++) {
 			if(players[i][j] == 0) {
 				num_zeroes += 1;
 				zero_index = j;
