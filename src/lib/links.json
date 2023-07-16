@@ -14,5 +14,9 @@
 	{
 		"name": "Parallax",
 		"url": "/parallax"
+	},
+	{
+		"name": "Blog",
+		"url": "/blog"
 	}
 ]
